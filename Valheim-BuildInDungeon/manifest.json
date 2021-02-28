@@ -1,0 +1,26 @@
+{
+  "name": "Build_In_Dungeons",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/LottieVixen/Valheim-build_in_dungeons",
+  "description": "Allows you to build in dungeons!",
+  "dependencies": [ "denikson-BepInExPack_Valheim-5.4.701" ],
+  "ManifestVersion": 2,
+  "AuthorName": "LottieVixen",
+  "Name": "LottieVixen-Build_In_Dungeons",
+  "DisplayName": "Build_In_Dungeons",
+  "Version": "1.0.0",
+  "Licence": "gpl-3.0",
+  "WebsiteURL": "https://github.com/LottieVixen/Valheim-build_in_dungeons",
+  "Description": "Allow building in dungeons",
+  "GameVersion": "N/A",
+  "Dependencies": [],
+  "OptionalDependencies": [],
+  "Incompatibilities": [],
+  "NetworkMode": "both",
+  "PackageType": "mod",
+  "InstallMode": "managed",
+  "Loaders": [
+    "bepinex"
+  ],
+  "ExtraData": {}
+}
