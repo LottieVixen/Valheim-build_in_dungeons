@@ -16,12 +16,14 @@ namespace Valheim_BuildInDungeon
 	{
 		private const string GUID = "valheim.lottievixen.build_in_dungeons";
 		private const string Name = "Build In Dungeons";
-		private const string Version = "1.0.0.0";
-		void Awake() 
-		{
-			var harmony = new Harmony("valheim.lottievixen.build_in_dungeons");
-			harmony.PatchAll();
-		}
+        private const string Version = "1.0.0.0";
+
+        void Awake()
+        {
+            var harmony = new Harmony("valheim.lottievixen.build_in_dungeons");
+            harmony.PatchAll();
+        }
+
 		[HarmonyPostfix]
 		[HarmonyPatch(typeof(Piece), "Awake")]
 		static void Placement_Patch(Piece __instance)
