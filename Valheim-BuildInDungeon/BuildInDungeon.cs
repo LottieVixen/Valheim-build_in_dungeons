@@ -20,7 +20,7 @@ namespace Valheim_BuildInDungeon
 
         void Awake()
         {
-            var harmony = new Harmony("valheim.lottievixen.build_in_dungeons");
+            var harmony = new Harmony(GUID);
             harmony.PatchAll();
         }
 
