@@ -16,7 +16,7 @@ namespace Valheim_BuildInDungeon
 	{
 		private const string GUID = "valheim.lottievixen.build_in_dungeons";
 		private const string Name = "Build In Dungeons";
-        private const string Version = "1.0.0.0";
+		private const string Version = "1.0.0.0";
 
         void Awake()
         {
@@ -30,12 +30,5 @@ namespace Valheim_BuildInDungeon
 		{
 			__instance.m_allowedInDungeons = true;
 		}
-		/* removed as it is unnessecary
-		[HarmonyPostfix]
-		[HarmonyPatch(typeof(Character), "InInterior")]
-		static void Placement_char(ref bool __result) {
-			__result = false;
-		}
-		*/
 	}
 }
